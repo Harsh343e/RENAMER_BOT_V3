@@ -3,10 +3,10 @@ services:
   workerdisk:
     build: .
     environment:
-      - API_ID=${1366318700}
-      - API_HASH=${a192de10945cf3685dbe8ae711b238d8}
-      - TOKEN=${5894152836:AAG2nRjIOrIK4Pv2lXWhOh-kXNamW6-yX9k}
-      - DB_NAME=${Cluster0}
-      - DB_URL=${mongodb+srv://Chiku:Harsh9421806556@cluster0.t613z7i.mongodb.net/?retryWrites=true&w=majority}
-      - CHANNEL=${-1001913943780}
-      - ADMIN=${1366318700}
+      - API_ID=${API_ID}
+      - API_HASH=${HASH}
+      - TOKEN=${TOKEN}
+      - DB_NAME=${DB_NAME}
+      - DB_URL=${DB_URL}
+      - CHANNEL=${CHANNEL}
+      - ADMIN=${ADMIN}
